@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'package:alphabet_scroll_view/alphabet_scroll_view.dart';
 
 void main() {
@@ -21,7 +20,7 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+  MyHomePage({Key? key, required this.title}) : super(key: key);
 
   final String title;
 
@@ -33,6 +32,21 @@ class _MyHomePageState extends State<MyHomePage> {
   void _incrementCounter() {}
 
   List<String> list = [
+    'रतालू',
+    'शलजम',
+    'अरवी',
+    'करेला',
+    'सेम फली',
+    'आलू',
+    'गाजर',
+    'पत्ता गोभी',
+    'कटहल',
+    'खीरा',
+    'लौकी',
+    'अदरक',
+    'लहसुन',
+    'प्याज',
+    'कद्दू',
     'angel',
     'bubbles',
     'shimmer',
@@ -135,15 +149,11 @@ class _MyHomePageState extends State<MyHomePage> {
               alignment: LetterAlignment.right,
               itemExtent: 50,
               unselectedTextStyle: TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.normal,
-                color: Colors.black
-              ),
+                  fontSize: 18,
+                  fontWeight: FontWeight.normal,
+                  color: Colors.black),
               selectedTextStyle: TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.red
-              ),
+                  fontSize: 20, fontWeight: FontWeight.bold, color: Colors.red),
               overlayWidget: (value) => Stack(
                 alignment: Alignment.center,
                 children: [
