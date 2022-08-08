@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key? key, required this.title}) : super(key: key);
+  const MyHomePage({Key? key, required this.title}) : super(key: key);
 
   final String title;
 
@@ -47,6 +47,42 @@ class _MyHomePageState extends State<MyHomePage> {
     'लहसुन',
     'प्याज',
     'कद्दू',
+    'गुलाब',
+    'Rose',
+    'कमल का फूल',
+    'Lotus',
+    'गेंदे का फूल',
+    'Marigold',
+    'चमेली',
+    'Jasmine',
+    'सूरजमुखी',
+    'Sunflower',
+    'गुडहल',
+    'Hibiscus',
+    'कुमुदिनी',
+    'Lily',
+    'गुलबहार',
+    'Daisy',
+    'नीलकमल',
+    'Blue Water lily',
+    'कनेर',
+    'Oleander',
+    'छुई-मुई',
+    'Touch Me Not',
+    'गुलमेंहदी',
+    'Balsam',
+    'नलिनी',
+    'Tulip',
+    'सदाबहार',
+    'Periwinkle',
+    'नाग चम्पा',
+    'Cobra Saffron',
+    'अमलतास',
+    'Golden Shower Flower',
+    'गुलदाउदी',
+    'Chrysanthemum',
+    'कुमुद' 'Red lotus',
+    'अपराजिता',
     'angel',
     'bubbles',
     'shimmer',
